@@ -1,0 +1,19 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.d1 {
+  width: 60px;
+  height: 100vh;
+  padding-top: 25vh;
+  position: fixed;
+  background-color: #eff3f8 !important;
+  z-index: 0;
+  margin-left: "120px";
+}
+
+.d1-button {
+  margin-bottom: 20px;
+}

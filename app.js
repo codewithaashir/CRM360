@@ -1,10 +1,9 @@
-
-import * as serviceWorker from './serviceWorker';
+//require('bootstrap')
 import React,{useEffect} from 'react';
 import ReactDOM from 'react-dom';
-import Routes from './APPROUTES/Routes';
+import Routes from './src/APPROUTES/Routes';
 // ...
-import { messaging } from "./Config/Firebase";
+import { messaging } from "./src/Config/Firebase";
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
@@ -35,4 +34,3 @@ if ("serviceWorker" in navigator) {
 }
 
 ReactDOM.render(<App />, document.getElementById('root'));
-serviceWorker.unregister();
